@@ -2,26 +2,21 @@ package AbstractClass;
 
 import StrategyInterface.FlyBehavior;
 import StrategyInterface.QuackBehavior;
-import StrategyInterfaceClass.FlyNoWay;
-import StrategyInterfaceClass.MuteQuack;
+
 
 /**
+ *
  * Created by Archer on 2016/11/16.
  */
 public abstract class Duck {
 
 
-    public FlyBehavior getFlyBehavior() {
-        return flyBehavior;
-    }
 
     public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
     }
 
-    public QuackBehavior getQuackBehavior() {
-        return quackBehavior;
-    }
+
 
     public void setQuackBehavior(QuackBehavior quackBehavior) {
         this.quackBehavior = quackBehavior;

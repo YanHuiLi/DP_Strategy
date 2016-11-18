@@ -1,8 +1,6 @@
 package DuckClass;
 
 import AbstractClass.Duck;
-import StrategyInterface.FlyBehavior;
-import StrategyInterface.QuackBehavior;
 import StrategyInterfaceClass.FlyNoWay;
 import StrategyInterfaceClass.MuteQuack;
 

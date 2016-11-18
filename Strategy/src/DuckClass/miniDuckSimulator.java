@@ -1,6 +1,7 @@
 package DuckClass;
 
 import AbstractClass.Duck;
+import FlyDog.DogFly;
 import StrategyInterfaceClass.FlyWithRocekt;
 import StrategyInterfaceClass.QuckWithTools;
 
@@ -23,8 +24,5 @@ public class miniDuckSimulator {
 
         modeDuck.setQuackBehavior(new QuckWithTools());
         modeDuck.performQuack();
-
-
-
     }
 }
