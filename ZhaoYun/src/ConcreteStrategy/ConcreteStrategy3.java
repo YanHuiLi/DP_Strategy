@@ -9,6 +9,6 @@ public class ConcreteStrategy3 implements Strategy{
     @Override
     public void doSomething() {
 
-        System.out.println("doSomething3!");
+        System.out.println("doSomething3!");//业务逻辑
     }
 }
